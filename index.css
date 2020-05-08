@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav span{
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav a{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#showcase img{
+    width: 100%;
+    height: 475px;
+}
+
+#showcase h1{
+    letter-spacing: 2px;
+}
+
+#showcase p{
+    letter-spacing: 1px;
+}
+
+/*
+.showcase{
+    margin: 0;
+    padding: 0;
+    height: 500px !important;
+}
+
+*/
+
+#services img{
+    width: 100%;
+    height: 200px;
+} 
+
+
+#about-us img{
+    width: 100%;
+    height: 100%;
+}
+
+#projects img{
+    width: 75%;
+    height: 75%;
+}
+
+#team img{
+    height: 100%;
+    width: 100%;
+}
+
+#team h6{
+    margin-top: -12px;
+    margin-bottom: 18px;
+}
+
+
+.footer-img{
+    height: 400px;
+    width: 100%;
+}
+
+.logo-img{
+    height: 50%;
+    width: 50%
+}
+
+.border-footer{
+    border-right: 1px solid darkblue;
+}
+
+@media (max-width: 922px) {
+    .border-footer {
+        border-right: none;
+        border-bottom: 1px solid darkblue;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
